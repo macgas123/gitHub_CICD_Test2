@@ -3,7 +3,7 @@ watchForFileChanges: false,
 module.exports = defineConfig({
   
   e2e: {
-    projectId: "khjcs9",
+    projectId: "ngicqi",
     setupNodeEvents(on, config) {
       return require('./cypress/plugins/index.js')(on,config)
     },
